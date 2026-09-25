@@ -39,4 +39,4 @@ jobs:
           KEY_4: ${{ secrets.KEY_4 }}
           KEY_5: ${{ secrets.KEY_5 }}
           KEY_6: ${{ secrets.KEY_6 }}
-        run: bash worker.sh # Her şey burada, gizli deponda oluyor!
+        run: bash worker.sh 
