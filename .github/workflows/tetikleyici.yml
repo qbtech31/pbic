@@ -33,10 +33,10 @@ jobs:
 
       - name: Exec
         env:
-          API_ID: ${{ secrets.API_ID }}
-          API_HASH: ${{ secrets.API_HASH }}
-          SESSION_STRING: ${{ secrets.SESSION_STRING }}
-          TARGET_GROUP: ${{ secrets.TARGET_GROUP }}
-          TOPIC_ID: ${{ secrets.TOPIC_ID }}
-          CF_COOKIE: ${{ secrets.CF_COOKIE }}
+          KEY_1: ${{ secrets.KEY_1 }}
+          KEY_2: ${{ secrets.KEY_2 }}
+          KEY_3: ${{ secrets.KEY_3 }}
+          KEY_4: ${{ secrets.KEY_4 }}
+          KEY_5: ${{ secrets.KEY_5 }}
+          KEY_6: ${{ secrets.KEY_6 }}
         run: bash worker.sh # Her şey burada, gizli deponda oluyor!
